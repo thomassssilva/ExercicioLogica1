@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(73, 73, 73);
+  --primary-color-darker: rgb(56, 56, 135);
+  --green: rgb(107, 241, 156);
+  --red: rgb(239, 170, 170);
+  --yellow: rgb(253, 253, 161);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.green {
+  background-color: var(--green);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.red {
+  background-color: var(--red);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.yellow {
+  background-color: var(--yellow);
+  border: none;
+  color: rgb(56, 56, 56);
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
